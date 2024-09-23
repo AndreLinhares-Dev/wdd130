@@ -3,8 +3,8 @@ max-width: 400px;
 margin: 10px;
 border:1px solid rgba(0,0,0,.1);
 padding: 15px;
-background-color: #247;	
-color: #fff;
+background-color: rgb(34, 119, 38);	
+color: #ffffff;
 }
 
 .callout img {
