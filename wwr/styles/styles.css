@@ -1,8 +1,24 @@
+:root{
+    --primary-color: white;
+    --secondary-color: black;
+    --accent1-color: blue;
+    --accent2-color: red;
+}
+
+
 body{
     font-family: "Roboto", sans-serif;
     font-weight: 400;
 }
 
-h1{
+h2{
     font-weight: 100;
+    color: var(--secondary-color);
+}
+
+
+.hero img{
+    display: block;
+    width: 100%;
+    height: auto;
 }
