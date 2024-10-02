@@ -7,6 +7,7 @@
 nav{
     background-color: steelblue;
     padding: 10px;
+    display: flex;
 }
 
 nav a {
@@ -27,7 +28,7 @@ img{
     padding: 2px;
     box-shadow: 0 0 30px gray;
 } 
-#profilepic {
+main img {
     float: right
 }
 
@@ -39,9 +40,10 @@ p  {
 main{
     max-width: 840px;
 }
-aside{
+aside {
     width: 20em;
     text-align: center;
+    position: relative;
 }
 
 aside img{
