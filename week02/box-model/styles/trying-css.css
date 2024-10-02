@@ -1,0 +1,47 @@
+nav{
+    background-color: rgb(192, 96, 24);
+    padding: 10px    ;
+    display: inline-flex;
+    min-width: 100%;
+}
+
+nav a{
+    color: white;
+    display: block;
+    padding: 5px;
+}
+
+h1{
+color: rgb(192, 96, 24);
+
+}
+
+h2 {
+    color: rgb(192, 96, 24);
+}
+
+p  { 
+    padding: 10px;
+}
+
+main{
+    max-width: 840px;
+}
+
+
+img{
+    width: 400px;
+    height: auto;
+    border: 1px solid steelblue;
+    padding: 2px;
+    box-shadow: 0 0 30px gray;
+}
+aside{
+    width: 26rem;
+    margin: 2rem;
+    border: 1px solid rgba (0,0,0, 0.2);
+    padding: 1rem;
+    background-color: #eee;
+    color: #333;
+    text-align: center;
+}
