@@ -1,0 +1,47 @@
+header {
+
+    background-color: rgb(50, 47, 47);
+    color: white;
+    padding: 15px;
+    text-align: center
+}
+
+ body {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+div {
+    height: auto;
+}
+
+.row {
+    display: flex;
+    padding: 15px;
+    gap: 10px;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.bottomleft {
+    position: absolute;
+    top: 505px;
+    background-color: black;
+    color: white;
+    padding: 5px;
+    opacity: 0;
+    transition: opacity 0.5s;
+}
+
+.column:hover .bottomleft {
+    opacity: 1;
+}
+
+footer {
+    text-align: center;
+}
