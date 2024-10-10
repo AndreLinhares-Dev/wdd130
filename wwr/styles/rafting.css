@@ -24,12 +24,16 @@ header {
     text-align: center;
     align-items: center;
     font-weight: 700;
-    align-content: space-between;
-
-    
-    
+   justify-content: space-around;
     
 }
+
+a:hover{
+background-color: var(--accent3-color);
+border  : 38px solid var(--accent3-color);
+
+}
+
 h1{
     color: var(--secondary-color);
     -webkit-text-stroke-width: 1px;
@@ -60,6 +64,7 @@ body {
     font-weight: 300;
     font-style: normal;
     margin: 0;
+    background-color: #F6F7EB;
     
 }
 
@@ -170,7 +175,7 @@ section {
 
 #adventureawaits {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     
 
 }
@@ -182,7 +187,7 @@ section {
     padding: 2px;
     border: black solid 1px;
     border-radius: 2px;
-    width: 300px;
+    width: 150px;
  
 }
 
