@@ -17,9 +17,6 @@
 header {
 	display: grid;
 	grid-template-columns: 300px 3fr 50px;
-	align-items: center;
-    max-width: 1000px;
-
     background-color: var(--primary-color);
     text-align: center;
     align-items: center;
