@@ -84,11 +84,13 @@ h2 {
 }
 
 .hero{
+    
     background-image: url(../images/hero_transparency_1024.jpg);
     padding-bottom: 100px;
     padding-top: 10px;
     background-repeat: no-repeat;
     background-size: cover;
+    
 
 
 }
