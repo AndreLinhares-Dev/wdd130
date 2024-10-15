@@ -1,0 +1,55 @@
+body {
+    background-color: rgb(226, 222, 222);
+}
+
+form {
+    font-weight: bold;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin: 0 auto;
+    border: 1px;
+    justify-content: center;
+    display: flex;
+
+}
+
+
+div {
+    background-color: white;
+    padding: 2em;
+    border: 3px;
+    border-radius: 2%;
+    max-width: 75%;
+    align-items: center;
+    margin: 100px;
+    max-width: 500px;
+
+}
+
+article {}
+
+input {
+    width: 500px;
+    height: 30px;
+}
+
+textarea {
+    height: 100px;
+    width: 500px;
+}
+
+#button {
+    background-color: rgb(30, 184, 30);
+    color: white;
+    cursor: pointer;
+    border-radius: 2px;
+    text-align: center;
+    padding: 1px;
+    width: 100%;
+    border: none;
+}
+
+#button:hover {
+    background-color: rgb(22, 145, 22);
+}

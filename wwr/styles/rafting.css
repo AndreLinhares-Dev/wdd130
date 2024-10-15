@@ -95,7 +95,7 @@ h2 {
 
 }
 
-article {
+.articleabout {
     background-color: var(--secondary-color);
     display: flex;
     margin: 20px 50px 30px 50px;
@@ -206,4 +206,55 @@ text-align: center;
 footer img {
     padding-left: 10px;
     left: 30px;
+}
+
+.contactus {
+    background-color: var(--secondary-color);
+    display: flex;
+    margin: 20px 50px 30px 50px;
+    opacity: 0.9;
+    border: black solid 1px;
+    border-radius: 0px;
+    align-items: center;
+    align-content: center;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    color: white;
+}
+
+#adress {
+display: flex;
+flex-direction: row;
+}
+
+#icon {
+    height: 40px;
+    padding: 5px;
+}
+
+#boxes {
+    display: flex;
+    justify-content: space-between;
+}
+
+.box {
+    flex: 1;
+    padding: 20px;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+
+.box-secondary {
+    background-color: var(--primary-color); 
+    color: black; 
+  
+}
+
+.newsletterh2 {
+    color: black;
+}
+
+input {
+    width: 300px;
 }
