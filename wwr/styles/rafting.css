@@ -10,28 +10,28 @@
     font-family: "Poppins", sans-serif;
     font-weight: 700;
     font-style: normal;
-  }
+}
 
 
 
 header {
-	display: grid;
-	grid-template-columns: 300px 3fr 50px;
+    display: grid;
+    grid-template-columns: 300px 3fr 50px;
     background-color: var(--primary-color);
     text-align: center;
     align-items: center;
     font-weight: 700;
-   justify-content: space-around;
-    
-}
-
-a:hover{
-background-color: var(--accent3-color);
-border  : 38px solid var(--accent3-color);
+    justify-content: space-around;
 
 }
 
-h1{
+a:hover {
+    background-color: var(--accent3-color);
+    border: 38px solid var(--accent3-color);
+
+}
+
+h1 {
     color: var(--secondary-color);
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: var(--primary-color);
@@ -41,19 +41,16 @@ h1{
 header img {
     height: 100px;
     margin: 0 0.25rem 0 10rem
-    
-    
-
 }
 
 a {
     border-right: 1px var(--secondary-color);
     background-color: #134266;
-    border  : 38px solid var(--secondary-color);
-    
+    border: 38px solid var(--secondary-color);
+
     text-decoration: none;
-    color: white ;
-    
+    color: white;
+
 }
 
 body {
@@ -62,17 +59,17 @@ body {
     font-style: normal;
     margin: 0;
     background-color: #F6F7EB;
-    
+
 }
 
 h2 {
     font-weight: 100;
-    color:white;
-  
-        font-family: "Roboto", sans-serif;
-        font-weight: 500;
-        font-style: normal;
-    }
+    color: white;
+
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
 
 
 .hero img {
@@ -83,14 +80,14 @@ h2 {
 
 }
 
-.hero{
-    
+.hero {
+
     background-image: url(../images/hero_transparency_1024.jpg);
     padding-bottom: 100px;
     padding-top: 10px;
     background-repeat: no-repeat;
     background-size: cover;
-    
+
 
 
 }
@@ -120,11 +117,11 @@ h2 {
     font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-style: normal;
-    
+
 
 }
 
-section {
+#boxes {
     background-color: var(--secondary-color);
     border: #9E9E9E groove;
     margin: 30px 50px 30px 50px;
@@ -133,7 +130,7 @@ section {
     color: white;
 }
 
-#history img{
+#history img {
     height: 200px;
     padding: 10px;
     margin-top: 70px;
@@ -175,19 +172,18 @@ section {
 #adventureawaits {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    
+
 
 }
 
-#showcaseimgs img{
-    background-color: var(--accent1-color);
+#showcaseimgs img {
     display: inline;
     opacity: 0.9;
     padding: 2px;
     border: black solid 1px;
     border-radius: 2px;
     width: 150px;
- 
+
 }
 
 footer {
@@ -199,10 +195,11 @@ footer {
     border-top: black 3px solid;
 }
 
-footer p{
-padding-right: 300px;
-text-align: center;
+footer p {
+    padding-right: 300px;
+    text-align: center;
 }
+
 footer img {
     padding-left: 10px;
     left: 30px;
@@ -223,8 +220,8 @@ footer img {
 }
 
 #adress {
-display: flex;
-flex-direction: row;
+    display: flex;
+    flex-direction: row;
 }
 
 #icon {
@@ -240,24 +237,32 @@ flex-direction: row;
 .box {
     flex: 1;
     padding: 20px;
-    border: 1px solid #ccc;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     justify-content: center;
 }
 
+.box-primary {
+    padding-top: 170px;
+}
+
 
 .box-secondary {
-    background-color: var(--primary-color); 
-    color: black; 
-  
+    background-color: var(--primary-color);
+    color: black;
+
+}
+
+.ourteamh2 {
+    color: black;
 }
 
 .newsletterh2 {
     color: black;
 }
 
-input {
-    width: 415px;
+#name,
+#email {
+    width: 410px;
     height: 20px;
 }
 
@@ -279,21 +284,25 @@ input {
 #employees {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    
+
 
 }
 
-#showcaseemployees img{
-    background-color: var(--accent1-color);
+#showcaseemployees img {
     display: inline;
     opacity: 0.9;
     padding: 2px;
     border: black solid 1px;
     border-radius: 2px;
     width: 380px;
- 
+
 }
 
 #questions {
-  justify-content: center;
+    justify-content: center;
+}
+
+textarea {
+    height: 100px;
+    width: 410px;
 }
