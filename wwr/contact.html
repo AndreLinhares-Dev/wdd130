@@ -19,7 +19,7 @@
     <header>
         <img src="images/picture1.png" alt="logo">
         <nav>
-            <a href="index.html">Index</a>
+            <a href="index">Index</a>
             <a href="about.html">About Us</a>
             <a href="trips.html">Trips</a>
             <a href="contact.html">Contact Us</a>
@@ -52,40 +52,55 @@
                 </ul>
             </article>
             <article class="box box-secondary">
-                <h2 class="newsletterh2">Sign on Newsletter!</h2>
-                <p> Subscribe to our newsletter to know about offers!</p>
-                <label for="email">Email:</label> <br>
-                <input type="email" id="email" name="email"> <br><br>
-
+                <form id="formnewsletter">
+                    <label for="name">Name:</label> <br>
+                    <input type="name" id="name" name="name"> <br><br>
+                    <label for="email">Email:</label> <br>
+                    <input type="email" id="email" name="email"> <br><br>
+                    <div id="questions">
+                        <p>Need Help with something?</p>
+                        <input type="radio" id="contactChoice1" name="contact" value="email" />
+                        <label for="contactChoice1">General Inquirity</label>
+                  
+                        <input type="radio" id="contactChoice2" name="contact" value="phone" />
+                        <label for="contactChoice2">Reservation Question</label>
+                  
+                        <input type="radio" id="contactChoice3" name="contact" value="mail" />
+                        <label for="contactChoice3">Website Suggestion</label>
+                      </div>
+                    
+                    <label for="Message">Message:</label> <br>
+                    <textarea type="text" name="text" id="text"></textarea>
+                    <h2 class="newsletterh2">Sign on Newsletter!</h2>
+                    <p> Subscribe to our newsletter to know about offers!</p>
+                <article id="button">
+                    <p>Submit</p>
+                </article>
+            </form>
             </article>
-            <article  class="box box-primary">
+            <article class="box box-primary">
                 <h2>Map</h2>
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2330.241894450818!2d-46.72405535930199!3d-23.584927443680368!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce56f1a8089c2d%3A0x27453bbfc5ed3ca2!2sTemplo%20de%20S%C3%A3o%20Paulo%20Brasil%20%C2%B7%20A%20Igreja%20de%20Jesus%20Cristo%20dos%20Santos%20dos%20%C3%9Altimos%20Dias!5e0!3m2!1spt-BR!2scz!4v1729008922261!5m2!1spt-BR!2scz" width="350" height="450"  allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2330.241894450818!2d-46.72405535930199!3d-23.584927443680368!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce56f1a8089c2d%3A0x27453bbfc5ed3ca2!2sTemplo%20de%20S%C3%A3o%20Paulo%20Brasil%20%C2%B7%20A%20Igreja%20de%20Jesus%20Cristo%20dos%20Santos%20dos%20%C3%9Altimos%20Dias!5e0!3m2!1spt-BR!2scz!4v1729008922261!5m2!1spt-BR!2scz"
+                    width="350" height="450" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
             </article>
 
         </section>
-        <section id="showcaseimgs">
-            <h2>Adventures Awaits You!</h2>
-            <div id="adventureawaits">
+        <section id="showcaseemployees">
+            <h2>Our Team</h2>
+            <div id="employees">
                 <figure>
-                    <img src="images/rafting1.jpg" alt="Elephant at sunset" />
-                    <figcaption>Team Rafters</figcaption>
+                    <img src="images/employee1.jpg" alt="Elephant at sunset" />
+                    <figcaption>Kyo Kusanagi | Head of Communications</figcaption>
                 </figure>
                 <figure>
-                    <img src="images/rafting2.jpg" alt="Elephant at sunset" />
-                    <figcaption>Team Rafters</figcaption>
+                    <img src="images/employee2.jpg" alt="Elephant at sunset" />
+                    <figcaption>Joana Silva | Project Manager</figcaption>
                 </figure>
                 <figure>
-                    <img src="images/rafting3.jpg" alt="Elephant at sunset" />
-                    <figcaption>Team Rafters</figcaption>
-                </figure>
-                <figure>
-                    <img src="images/rafting4.jpg" alt="Elephant at sunset" />
-                    <figcaption>Team Rafters</figcaption>
-                </figure>
-                <figure>
-                    <img src="images/rafting5.jpg" alt="Elephant at sunset" />
-                    <figcaption>Team Rafters</figcaption>
+                    <img src="images/employee3.jpg" alt="Elephant at sunset" />
+                    <figcaption>Joana D'arc | Trip Manager</figcaption>
                 </figure>
             </div>
         </section>

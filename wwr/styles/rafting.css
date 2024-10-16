@@ -242,6 +242,7 @@ flex-direction: row;
     padding: 20px;
     border: 1px solid #ccc;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    justify-content: center;
 }
 
 
@@ -256,5 +257,43 @@ flex-direction: row;
 }
 
 input {
-    width: 300px;
+    width: 415px;
+    height: 20px;
+}
+
+#button {
+    background-color: rgb(30, 184, 30);
+    color: white;
+    cursor: pointer;
+    border-radius: 2px;
+    text-align: center;
+    padding: 1px;
+    width: 100%;
+    border: none;
+}
+
+#button:hover {
+    background-color: rgb(22, 145, 22);
+}
+
+#employees {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    
+
+}
+
+#showcaseemployees img{
+    background-color: var(--accent1-color);
+    display: inline;
+    opacity: 0.9;
+    padding: 2px;
+    border: black solid 1px;
+    border-radius: 2px;
+    width: 380px;
+ 
+}
+
+#questions {
+  justify-content: center;
 }
