@@ -38,7 +38,7 @@ textarea {
     width: 500px;
 }
 
-#button {
+.submit {
     background-color: rgb(30, 184, 30);
     color: white;
     cursor: pointer;
