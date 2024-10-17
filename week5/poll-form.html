@@ -5,9 +5,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="styles/poll-form.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/poll-form.css">
     <title>WDD 130 | HTML FORM - User Poll</title>
 </head>
 
@@ -19,14 +19,18 @@
         <form>
             <fieldset>
                 <legend>Contact Information</legend>
-                <label for="fullname">Full Name:</label>
-                <input type="text" id="fullname" name="fullname">
+                <div class="form-item column2">
+                    <label for="fullname">Full Name:</label>
+                    <input type="text" id="fullname" name="fullname">
+                </div> 
+                <div class="form-item column2">
                 <label for="useremail">Email:</label>
                 <input type="email" name="useremail" id="email">
-
+                </div>
             </fieldset>
             <fieldset>
                 <legend>Questions</legend>
+                <div class="form-item column1">
                 <label for="favoritebrowser">What is your favorite Browser?</label>
                 <select name="browser" id="browser">
                     <option value="chrome">Chrome</option>
@@ -34,11 +38,13 @@
                     <option value="Safari">Safari</option>
                     <option value="edge">Edge</option>
                     <option value="Other">Other</option>
-                </select> <br>
+                </select> </div> <br>
                 <label for="pet">Do you have a household pet?</label>
-                <input type="checkbox" id="pet" name="pet"> <br>
+                <input type="checkbox" id="pet" name="pet">  <div> </div><br>
                 <label for="feedback">List the places you lived:</label>
-                <textarea name="feedback" id="feedback" rows="4" placeholder="Mossoró, Prague, Caxias do Sul, Hawaii"></textarea>
+            </div>
+                <textarea name="feedback" id="feedback" rows="4"
+                    placeholder="Mossoró, Prague, Caxias do Sul, Hawaii"></textarea>
             </fieldset>
             <button id="button" type="submit">Submit Poll</button>
         </form>
