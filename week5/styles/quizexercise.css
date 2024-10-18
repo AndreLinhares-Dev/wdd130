@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+h1 {
+text-align: center;
+}
+
+main {
+    display: grid;
+    place-items: center;
+}
+form {
+    width: 570px;
+    margin: 20px;
+    padding: 15px;
+    border: 3px solid;
+    border-radius: 0.5rem;
+    background-color: rgb(190, 211, 188);
+    display: grid;
+    
+    }
+    
+
+div {
+    padding: 15px;
+    
+}
+
+input, select, textarea {
+    padding: 0.5rem;
+    font-size: 1.1rem;
+    width: 500px;
+}
+
+img {
+    max-width: 400px;
+    padding: 15px;
+    padding-left: 50px;   
+}
+
+textarea {
+    height: 70px;
+}
+
+button {
+    margin: 1rem;
+    background-color: rgb(158, 254, 15);
+    border: none;
+    border-radius: .5rem;
+    padding: .5rem;
+    font-size: 1rem;
+}
+
+button:hover {
+    background-color: darkgreen;
+}
