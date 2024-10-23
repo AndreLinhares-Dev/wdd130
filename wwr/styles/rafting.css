@@ -409,3 +409,50 @@ display: block;
     
 
 }
+
+#imgtrip {
+    max-width: 200px;
+}
+
+#tripschoices {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    font-size: 25px;
+    
+
+}
+
+#tripschoices img{
+
+    display: inline;
+    opacity: 0.9;
+    padding: 2px;
+    border: black solid 1px;
+    border-radius: 2px;
+    width: 350px;
+    height: 200px;
+    object-fit: cover;
+ 
+}
+
+#figuretrips {
+    display: flex;
+    flex-direction: column-reverse; /* Coloca a legenda acima da imagem */
+    align-items: center; /* Centraliza a imagem e a legenda */
+}
+
+.book-now {
+    background-color: var(--secondary-color) ;
+    color: white;
+    cursor: pointer;
+  
+    text-align: center;
+    padding: 1px;
+    width: 200px;
+    border: 3px solid var(--primary-color);
+    padding: 10px;
+    height: 50px;
+    align-self: center;
+    font-size: 20px;
+    text-shadow: 1px 1px 3px black;
+}
