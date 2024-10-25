@@ -67,8 +67,10 @@ body {
 }
 
 h2 {
-    font-weight: 100;
-    color:white;
+    color: var(--secondary-color);
+    -webkit-text-stroke-width: px;
+    -webkit-text-stroke-color: var(--primary-color);
+    font-size: 25px;
   
         font-family: "Roboto", sans-serif;
         font-weight: 500;
